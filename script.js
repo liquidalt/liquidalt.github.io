@@ -4591,7 +4591,7 @@ const DATING_PROFILES = [
     age: 12,
     bio: 'Only wants one person 👀',
     emoji: '😏',
-    interests: ['Sailing', 'Martial Arts', ''],
+    interests: ['Sailing', 'Martial Arts', 'guiguiofficial guiguiofficial'],
     dealbreaker: 'People who cheat',
     compatibility: () => Math.floor(Math.random() * 50) + 30,
     msg: 'ASL?'
