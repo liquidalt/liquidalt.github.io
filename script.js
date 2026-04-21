@@ -4578,48 +4578,48 @@ async function init() {
 const DATING_PROFILES = [
   {
     name: 'Ytggobs',
-    age: 19,
-    bio: 'Yoshi main. Looking for someone who doesn't rage quit. I will troll you on the first date.',
-    emoji: '🦕',
+    age: 14,
+    bio: 'Do you play brawl stars?',
+    emoji: '📈',
     interests: ['Trolling', 'Bottlecaps', 'Going fast'],
     dealbreaker: 'Slow typers',
     compatibility: () => Math.floor(Math.random() * 40) + 10, // usually bad
-    msg: 'ur kind of slow ngl'
+    msg: '[MODERATED] YOU!!!'
   },
   {
-    name: 'TheFinnyShow',
-    age: 21,
-    bio: 'Just a chill guy. Into live races and vibing. My team chat is always open.',
-    emoji: '🎭',
-    interests: ['Live Races', 'Chat', 'Badges'],
+    name: 'Finn',
+    age: 12,
+    bio: 'Only wants one person 👀',
+    emoji: '😏',
+    interests: ['Sailing', 'Martial Arts', ''],
     dealbreaker: 'People who cheat',
     compatibility: () => Math.floor(Math.random() * 50) + 30,
-    msg: 'hey wanna race sometime?'
+    msg: 'ASL?'
   },
   {
-    name: 'DePoule',
+    name: 'Default',
     age: '???',
-    bio: 'I am an entity. I do not date. I only judge. Pet me.',
+    bio: 'I AM DEFAULT!!!!',
     emoji: '💀',
-    interests: ['Being petted', 'Taking your coins', 'Existing'],
+    interests: ['Scripting', 'Staring', 'Existing'],
     dealbreaker: 'Everyone',
     compatibility: () => Math.random() < 0.05 ? 99 : Math.floor(Math.random() * 8),
-    msg: 'you cannot handle me. nobody can.'
+    msg: 'DUE DATE IS TOMORROW BUDDY!'
   },
   {
     name: 'Marco',
-    age: 23,
-    bio: 'Edgar from Brawl Stars. Will dodge your shots and your feelings.',
+    age: 15,
+    bio: 'My parents are forcing me to date people.',
     emoji: '🗡️',
     interests: ['Brawling', 'Dodging', 'Being unpredictable'],
     dealbreaker: 'Slow reactions',
     compatibility: () => Math.floor(Math.random() * 60) + 20,
-    msg: 'rematch?'
+    msg: 'You have great taste!'
   },
   {
     name: 'Doodlehoney2018',
-    age: 20,
-    bio: 'I'm purple. I have 4820 bottlecaps. I am literally #1 on the leaderboard. Date me.',
+    age: 24,
+    bio: 'I'm purple. I have infinite bottlecaps. I am literally #1 on the leaderboard. Date me.',
     emoji: '💜',
     interests: ['Coins', 'Themes', 'Being #1'],
     dealbreaker: 'Anyone ranked higher than them',
@@ -4628,8 +4628,8 @@ const DATING_PROFILES = [
   },
   {
     name: 'Random Person',
-    age: '?',
-    bio: 'I'm just here. Nobody knows my name. I might be you.',
+    age: '???',
+    bio: 'Im busy!',
     emoji: '👤',
     interests: ['Being random', 'Nothing specific', 'Existing'],
     dealbreaker: 'Nothing',
@@ -4638,23 +4638,23 @@ const DATING_PROFILES = [
   },
   {
     name: 'YIKE',
-    age: 'a geometry dash cube',
-    bio: 'I move at 2x speed. I cannot stop. I am geometry.',
+    age: '16',
+    bio: 'I WILL BASH INTO YOU I CANNOT STOP!!',
     emoji: '🟡',
     interests: ['Going fast', 'Geometry', 'Not dying'],
     dealbreaker: 'Spikes',
     compatibility: () => Math.random() < 0.1 ? 95 : 2,
-    msg: 'AAAAAAAAAA'
+    msg: 'AAAAAAAAAA~~~'
   },
   {
     name: 'OverControl',
     age: '∞',
-    bio: 'Black and white. Sees everything. Controls everything. Is currently watching you read this.',
+    bio: 'I am the director, I see, I kill, I command',
     emoji: '⬛⬜',
     interests: ['Control', 'Observation', 'Monochrome aesthetics'],
     dealbreaker: 'Chaos',
     compatibility: () => 0,
-    msg: 'I already know everything about you.'
+    msg: 'Are you a keyboard? Because you are just my type!'
   }
 ];
 
@@ -4667,7 +4667,7 @@ function renderDating() {
   const profile = DATING_PROFILES[datingState.currentIdx % DATING_PROFILES.length];
   const compat = profile.compatibility();
   const compatColor = compat >= 70 ? '#00e676' : compat >= 40 ? '#ffaa44' : '#ff4444';
-  const compatLabel = compat >= 70 ? 'AMAZING MATCH 😳' : compat >= 40 ? 'Could work 🤔' : compat < 5 ? 'RUN.' : 'Not great 💀';
+  const compatLabel = compat >= 70 ? 'Im concerned 😳' : compat >= 40 ? 'Wow!' : compat < 5 ? 'Not your type' : 'Fried';
 
   el.innerHTML = `
     <div style="max-width:620px;margin:0 auto;padding:0 16px">
