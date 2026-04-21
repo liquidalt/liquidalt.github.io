@@ -4619,7 +4619,7 @@ const DATING_PROFILES = [
   {
     name: 'Doodlehoney2018',
     age: 24,
-    bio: 'I'm purple. I have infinite bottlecaps. I am literally #1 on the leaderboard. Date me.',
+    bio: 'Im purple. I have infinite bottlecaps. I am literally #1 on the leaderboard. Date me.',
     emoji: '💜',
     interests: ['Coins', 'Themes', 'Being #1'],
     dealbreaker: 'Anyone ranked higher than them',
