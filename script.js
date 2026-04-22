@@ -1,10 +1,11 @@
 const FB = {
-  apiKey:            "AIzaSyBgppLaWv-3M9IsCzUtDD5Z8pqUxPtdPLk",
-  authDomain:        "liquidtipe.firebaseapp.com",
-  projectId:         "liquidtipe",
-  storageBucket:     "liquidtipe.firebasestorage.app",
-  messagingSenderId: "765092878295",
-  appId:             "1:765092878295:web:e63bf4df58cee3141d5d92"
+  apiKey:            "AIzaSyCaDVRWLOSgC_Nl0YOeoG86G_hd_LKdW2U",
+  authDomain:        "liquidalt.firebaseapp.com",
+  projectId:         "liquidalt",
+  storageBucket:     "liquidalt.firebasestorage.app",
+  messagingSenderId: "151067316267",
+  appId:             "1:151067316267:web:522330446b0fae7cdbda6e",
+  measurementId:     "G-3BFEPRKV3X"
 };
 
 
